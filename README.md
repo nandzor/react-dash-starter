@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ecme - The Ultimate React, Vite & TypeScript Web Template
 
 Ecme  is a modern and responsive admin dashboard template built with React and TypeScript. Designed to provide a highly customizable and easy-to-use platform for building admin interfaces, it includes a variety of reusable components, pre-designed pages, and dynamic features. 
@@ -22,3 +23,8 @@ Check out the [Live Demo](https://ecme-react.themenate.net/) to explore the temp
 ### Guide
 Please visit our [Online documentation](https://ecme-react.themenate.net/guide/documentation/introduction) for detailed guides, setup instructions, and customization options.
 
+=======
+# react-dash-starter
+
+React 19 with zustand
+>>>>>>> origin/main
