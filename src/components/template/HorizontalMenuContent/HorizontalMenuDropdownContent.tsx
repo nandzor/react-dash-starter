@@ -329,11 +329,12 @@ const TabLayout = ({
     userAuthority,
     routeParentKey,
 }: LayoutProps & { columns: 1 | 2 | 3 | 4 | 5 }) => {
-    const [activeKey, setActiveKey] = useState(
-        navigationTree.some((nav) => nav.key === routeParentKey)
-            ? routeParentKey
-            : '' || navigationTree[0].key,
-    )
+    const [activeKey, setActiveKey] = useState(() => {
+        if (navigationTree.some((nav) => nav.key === routeParentKey)) {
+            return routeParentKey;
+        }
+        return navigationTree[0]?.key || '';
+    });
 
     return (
         <div className="flex">

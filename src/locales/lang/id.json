@@ -1,0 +1,16 @@
+{
+    "nav": {
+        "dashboard": {
+            "dashboard": "Dasbor",
+            "marketing": "Pemasaran"
+        },
+        "features": "Fitur",
+        "featuresCustomers": {
+            "customers": "Customer",
+            "customerList": "Daftar",
+            "customerEdit": "Edit",
+            "customerCreate": "Buat",
+            "customerDetails": "Detail"
+        }
+    }
+}
