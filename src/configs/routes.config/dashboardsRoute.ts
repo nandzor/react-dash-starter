@@ -5,7 +5,7 @@ import type { Routes } from '@/@types/routes'
 
 const dashboardsRoute: Routes = [
     {
-        key: 'dashboard.marketing',
+        key: 'dashboards.marketing',
         path: `${DASHBOARDS_PREFIX_PATH}/marketing`,
         component: lazy(() => import('@/views/dashboards/MarketingDashboard')),
         authority: [ADMIN, USER],

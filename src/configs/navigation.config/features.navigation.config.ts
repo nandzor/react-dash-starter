@@ -57,23 +57,6 @@ const featuresNavigationConfig: NavigationTree[] = [
                         subMenu: [],
                     },
                     {
-                        key: 'features.customers.customerEdit',
-                        path: `${FEATURES_PREFIX_PATH}/customers/customer-edit/1`,
-                        title: 'Customer Edit',
-                        translateKey: 'nav.featuresCustomers.customerEdit',
-                        icon: 'customerEdit',
-                        type: NAV_ITEM_TYPE_ITEM,
-                        authority: [ADMIN, USER],
-                        meta: {
-                            description: {
-                                translateKey:
-                                    'nav.featuresCustomers.customerEditDesc',
-                                label: 'Edit customer info',
-                            },
-                        },
-                        subMenu: [],
-                    },
-                    {
                         key: 'features.customers.customerCreate',
                         path: `${FEATURES_PREFIX_PATH}/customers/customer-create`,
                         title: 'Customer Create',
@@ -89,24 +72,7 @@ const featuresNavigationConfig: NavigationTree[] = [
                             },
                         },
                         subMenu: [],
-                    },
-                    {
-                        key: 'features.customers.customerDetails',
-                        path: `${FEATURES_PREFIX_PATH}/customers/customer-details/1`,
-                        title: 'Customer Details',
-                        translateKey: 'nav.featuresCustomers.customerDetails',
-                        icon: 'customerDetails',
-                        type: NAV_ITEM_TYPE_ITEM,
-                        authority: [ADMIN, USER],
-                        meta: {
-                            description: {
-                                translateKey:
-                                    'nav.featuresCustomers.customerDetailsDesc',
-                                label: 'Detailed customer info',
-                            },
-                        },
-                        subMenu: [],
-                    },
+                    }
                 ],
             },
         ],
