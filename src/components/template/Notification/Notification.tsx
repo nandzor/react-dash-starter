@@ -99,7 +99,7 @@ const _Notification = ({ className }: { className?: string }) => {
     const notificationDropdownRef = useRef<DropdownRef>(null)
 
     const handleViewAllActivity = () => {
-        navigate('/concepts/account/activity-log')
+        navigate('/features/account/activity-log')
         if (notificationDropdownRef.current) {
             notificationDropdownRef.current.handleDropdownClose()
         }

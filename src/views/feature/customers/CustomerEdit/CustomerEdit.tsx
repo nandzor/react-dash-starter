@@ -40,7 +40,7 @@ const CustomerEdit = () => {
         toast.push(<Notification type="success">Changes Saved!</Notification>, {
             placement: 'top-center',
         })
-        navigate('/concepts/customers/customer-list')
+        navigate('/features/customers/customer-list')
     }
 
     const getDefaultValues = () => {
@@ -71,7 +71,7 @@ const CustomerEdit = () => {
             <Notification type="success">Customer deleted!</Notification>,
             { placement: 'top-center' },
         )
-        navigate('/concepts/customers/customer-list')
+        navigate('/features/customers/customer-list')
     }
 
     const handleDelete = () => {

@@ -1,5 +1,5 @@
 
-import { CONCEPTS_PREFIX_PATH } from '@/constants/route.constant'
+import { FEATURES_PREFIX_PATH } from '@/constants/route.constant'
 import {
     NAV_ITEM_TYPE_ITEM,
     NAV_ITEM_TYPE_COLLAPSE,
@@ -41,7 +41,7 @@ const featuresNavigationConfig: NavigationTree[] = [
                 subMenu: [
                     {
                         key: 'features.customers.customerList',
-                        path: `${CONCEPTS_PREFIX_PATH}/customers/customer-list`,
+                        path: `${FEATURES_PREFIX_PATH}/customers/customer-list`,
                         title: 'Customer List',
                         translateKey: 'nav.featuresCustomers.customerList',
                         icon: 'customerList',
@@ -58,7 +58,7 @@ const featuresNavigationConfig: NavigationTree[] = [
                     },
                     {
                         key: 'features.customers.customerEdit',
-                        path: `${CONCEPTS_PREFIX_PATH}/customers/customer-edit/1`,
+                        path: `${FEATURES_PREFIX_PATH}/customers/customer-edit/1`,
                         title: 'Customer Edit',
                         translateKey: 'nav.featuresCustomers.customerEdit',
                         icon: 'customerEdit',
@@ -75,7 +75,7 @@ const featuresNavigationConfig: NavigationTree[] = [
                     },
                     {
                         key: 'features.customers.customerCreate',
-                        path: `${CONCEPTS_PREFIX_PATH}/customers/customer-create`,
+                        path: `${FEATURES_PREFIX_PATH}/customers/customer-create`,
                         title: 'Customer Create',
                         translateKey: 'nav.featuresCustomers.customerCreate',
                         icon: 'customerCreate',
@@ -92,7 +92,7 @@ const featuresNavigationConfig: NavigationTree[] = [
                     },
                     {
                         key: 'features.customers.customerDetails',
-                        path: `${CONCEPTS_PREFIX_PATH}/customers/customer-details/1`,
+                        path: `${FEATURES_PREFIX_PATH}/customers/customer-details/1`,
                         title: 'Customer Details',
                         translateKey: 'nav.featuresCustomers.customerDetails',
                         icon: 'customerDetails',

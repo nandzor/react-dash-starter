@@ -69,7 +69,7 @@ const ProfileSection = ({ data = {} }: ProfileSectionProps) => {
 
     const handleDelete = () => {
         setDialogOpen(false)
-        navigate('/concepts/customers/customer-list')
+        navigate('/features/customers/customer-list')
         toast.push(
             <Notification title={'Successfully Deleted'} type="success">
                 Customer successfuly deleted
@@ -78,11 +78,11 @@ const ProfileSection = ({ data = {} }: ProfileSectionProps) => {
     }
 
     const handleSendMessage = () => {
-        navigate('/concepts/chat')
+        navigate('/features/chat')
     }
 
     const handleEdit = () => {
-        navigate(`/concepts/customers/customer-edit/${data.id}`)
+        navigate(`/features/customers/customer-edit/${data.id}`)
     }
 
     return (

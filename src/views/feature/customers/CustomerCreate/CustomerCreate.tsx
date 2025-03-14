@@ -26,7 +26,7 @@ const CustomerEdit = () => {
             <Notification type="success">Customer created!</Notification>,
             { placement: 'top-center' },
         )
-        navigate('/concepts/customers/customer-list')
+        navigate('/features/customers/customer-list')
     }
 
     const handleConfirmDiscard = () => {
@@ -35,7 +35,7 @@ const CustomerEdit = () => {
             <Notification type="success">Customer discardd!</Notification>,
             { placement: 'top-center' },
         )
-        navigate('/concepts/customers/customer-list')
+        navigate('/features/customers/customer-list')
     }
 
     const handleDiscard = () => {
