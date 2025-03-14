@@ -8,7 +8,7 @@ const featuresRoute: Routes = [
         key: 'features.customers.customerList',
         path: `${FEATURES_PREFIX_PATH}/customers/customer-list`,
         component: lazy(
-            () => import('@/views/feature/customers/CustomerList'),
+            () => import('@/views/features/customers/CustomerList'),
         ),
         authority: [ADMIN, USER],
     },
@@ -16,7 +16,7 @@ const featuresRoute: Routes = [
         key: 'features.customers.customerEdit',
         path: `${FEATURES_PREFIX_PATH}/customers/customer-edit/:id`,
         component: lazy(
-            () => import('@/views/feature/customers/CustomerEdit'),
+            () => import('@/views/features/customers/CustomerEdit'),
         ),
         authority: [ADMIN, USER],
         meta: {
@@ -33,7 +33,7 @@ const featuresRoute: Routes = [
         key: 'features.customers.customerCreate',
         path: `${FEATURES_PREFIX_PATH}/customers/customer-create`,
         component: lazy(
-            () => import('@/views/feature/customers/CustomerCreate'),
+            () => import('@/views/features/customers/CustomerCreate'),
         ),
         authority: [ADMIN, USER],
         meta: {
@@ -50,7 +50,7 @@ const featuresRoute: Routes = [
         key: 'features.customers.customerDetails',
         path: `${FEATURES_PREFIX_PATH}/customers/customer-details/:id`,
         component: lazy(
-            () => import('@/views/feature/customers/CustomerDetails'),
+            () => import('@/views/features/customers/CustomerDetails'),
         ),
         authority: [ADMIN, USER],
         meta: {

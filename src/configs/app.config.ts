@@ -1,3 +1,5 @@
+import { FEATURES_PREFIX_PATH } from '@/constants/route.constant'
+
 export type AppConfig = {
     apiPrefix: string
     authenticatedEntryPath: string
@@ -9,7 +11,7 @@ export type AppConfig = {
 
 const appConfig: AppConfig = {
     apiPrefix: '/api',
-    authenticatedEntryPath: '/dashboard/marketing',
+    authenticatedEntryPath: `/${FEATURES_PREFIX_PATH}/marketing`,
     unAuthenticatedEntryPath: '/sign-in',
     locale: 'en',
     accessTokenPersistStrategy: 'cookies',
