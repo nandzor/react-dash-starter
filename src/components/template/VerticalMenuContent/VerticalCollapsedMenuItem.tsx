@@ -40,7 +40,7 @@ const DefaultItem = ({
                 key={nav.key}
                 label={
                     <>
-                        <VerticalMenuIcon icon={nav.icon} />
+                        <VerticalMenuIcon icon={nav.icon} gutter={''} />
                         <span>{t(nav.translateKey, nav.title)}</span>
                     </>
                 }
@@ -65,7 +65,7 @@ const CollapsedItem = ({
 }: CollapsedItemProps) => {
     const menuItem = (
         <MenuItem key={nav.key} eventKey={nav.key} className="mb-2">
-            <VerticalMenuIcon icon={nav.icon} />
+            <VerticalMenuIcon icon={nav.icon} gutter={''} />
         </MenuItem>
     )
 

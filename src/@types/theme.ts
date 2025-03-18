@@ -3,7 +3,7 @@ export type Mode = 'light' | 'dark'
 export type ControlSize = 'lg' | 'md' | 'sm'
 export type LayoutType =
     | 'blank'
-    | 'collapsibleSide'
+    | 'collapsibleSide' //default uising collapsibleSide
     | 'stackedSide'
     | 'topBarClassic'
     | 'framelessSide'

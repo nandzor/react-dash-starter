@@ -1,4 +1,5 @@
 import {
+    PiMegaphoneDuotone,
     PiHouseLineDuotone,
     PiPencilSimpleLineDuotone,
     PiUserCircleDuotone,
@@ -11,6 +12,7 @@ export type NavigationIcons = Record<string, JSX.Element>
 
 const navigationIcon: NavigationIcons = {
     home: <PiHouseLineDuotone />,
+    dashboardMarketing: <PiMegaphoneDuotone />,
     customers: <PiUsersDuotone />,
     customerList: <PiUserListDuotone />,
     customerEdit: <PiPencilSimpleLineDuotone />,
